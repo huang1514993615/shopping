@@ -1,0 +1,91 @@
+.img{
+    width: 100%;
+    height: 750rpx;
+}
+.imgs{
+    width: 100%;
+    height: 100%;
+}
+.tabs-item{
+    width: 33%;
+    height: 50rpx;
+    border: 1rpx 0rpx 1rpx 1rpx solid #ccc;
+    display: inline-block;
+    text-align: center;
+    line-height: 50rpx;
+}
+.active{
+    color:#fff;
+   background-color:#525052 ;
+    }
+.market{
+    width: 100%;
+    height: 200rpx;
+    padding-top: 15rpx;
+}
+    .name{
+        width: 100%;
+        height: 50rpx;
+        font-size: 36rpx;
+        font-weight: bold;
+    }
+.yishou{
+    width:100%;
+    height:35rpx;
+    color:#969696 ;
+    font-size: 24rpx;
+    margin-top: 10rpx;
+    margin-bottom: 10rpx;
+}
+.price{
+    width: 40%;
+    height: 50rpx;
+    line-height: 50rpx;
+    color:#e21c24 ;
+    font-size: 32rpx;
+    display: inline-block;
+    
+}
+.price-left{
+    width: 20%;
+    height: 50rpx;
+    line-height: 50rpx;
+    color: #969696;
+    font-size: 24rpx;
+    display: inline-block;
+    padding-left: 300rpx;
+}
+.goumai{
+    width: 100%;
+    height: 80rpx;
+    position: fixed;
+    bottom: 0rpx;
+}
+.shopping{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    line-height: 80rpx;
+    color: #ffffff;
+    font-weight: 500;
+    background-color: slategrey;
+    display: inline-block;
+}
+.purchase{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    line-height: 80rpx;
+    color: #ffffff;
+    font-weight: 500;
+    background-color: red;
+    display: inline-block;
+}
+.map{
+    width: 100%;
+    height: 600rpx;
+    margin-top: 15rpx;
+}
+.maps{
+    margin-bottom: 80rpx;
+}

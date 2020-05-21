@@ -1,0 +1,94 @@
+
+.tabs-box{
+    display: inline-block;
+    width: 20%;
+    height: 1130rpx;
+    border: 1px solid #ccc;
+    vertical-align: top;
+    position: fixed;
+    top: 80rpx;
+}     
+.tabs-item {
+
+width:100%;
+height: 75rpx;
+color:rgb(7, 7, 14);
+font-size:35rpx;
+text-align: center;
+line-height: 75rpx;
+}
+.content-box{
+    display: inline-block;
+    width: 80%;
+    height:100%;
+    vertical-align: top;
+    margin-left: 20%;
+    margin-top: 80rpx;
+}
+.active{
+    color:red;
+    border-left:2px solid red;
+    }
+.text{
+    width: 100%;
+    height: 50rpx;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding-left: 50rpx;
+    line-height: 50rpx;
+}
+.flex{
+    width: 100%;
+    display: flex;
+    justify-content : space-around;
+    margin-bottom: 20rpx;
+}
+.weui-input{
+    width: 60%;
+    height: 50rpx;
+    background-color: #ececec;
+    border-radius: 4%;
+    text-align: center;
+    display: inline-block;
+   
+}
+.input{
+    width: 100%;
+    height: 80rpx;
+    background-color: #f6f6f6;
+    position: fixed;
+    vertical-align: top;
+}
+.but{
+    width: 70rpx;
+    height: 51rpx;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 50rpx;
+    text-align: center;
+    line-height: 50rpx;
+    background-color: #ececec;
+}
+.qd{
+    width: 70rpx;
+    height: 51rpx;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    line-height: 50rpx;
+}
+.image{
+    width: 40rpx;
+    height: 40rpx;
+    margin-top: 5rpx;
+}
+
+.fanhui{
+    width: 51rpx;
+    height: 51rpx;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    line-height: 50rpx;
+    margin-left: 15rpx;
+}

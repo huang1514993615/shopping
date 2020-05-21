@@ -1,0 +1,8 @@
+<view  class="content" bindtap="nva">
+<view class="image"><image src="{{playlist.img_url}}"></image></view>
+<view class="introduce" >
+<view class="name">{{playlist.title}}</view>
+<view  class="value"><view class="jiage">￥<text >{{playlist.price}}</text></view><view  class="payment">{{playlist.nice}}人付款</view></view>
+<view class="shangjia">{{playlist.supplier}}</view>
+</view>
+</view>

@@ -1,0 +1,9 @@
+<view class="box" bindtap="nva">
+    <view>
+ <image class="image" src="{{playlist.img_list_url}}"></image>
+    </view>
+     <view class="text">
+        {{playlist.title}}
+     </view>
+       
+</view>

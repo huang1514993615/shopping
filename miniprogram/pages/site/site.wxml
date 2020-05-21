@@ -1,0 +1,8 @@
+
+<view>
+    <view class="top">xx</view>
+    <view class="size">暂未设置</view>
+    <view class="size-min">没有收货地址计不了快递哦-</view>
+    <button class="but" size="mini" bindtap="nva">新增地址</button>
+</view>
+  

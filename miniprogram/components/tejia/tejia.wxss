@@ -1,0 +1,31 @@
+.content{
+    width: 100%;
+    height: 700rpx;
+}
+image{
+    width: 100%;
+    height: 500rpx;
+}
+.text-one{
+color: red;
+font-size: 40rpx;
+    
+}
+.text-two{
+    font-size: 30rpx;
+    text-decoration: line-through;
+    color: #ccc;
+}
+button{
+    display: inline-block;
+    background-color: red;
+    color: white;
+    width: 150rpx;
+    height: 58rpx;
+    margin-left: 360rpx;
+}
+.text{
+    margin-left: 10rpx;
+    font-size: 26rpx;
+    color: darkgray;
+}

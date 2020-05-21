@@ -1,0 +1,46 @@
+<view>
+<input bindtap="sousuo" class="weui-input" maxlength="100" placeholder="点击搜索,超多好礼任你选" />
+</view>
+<scroll-view scroll-x="true">
+      <view class="ul">
+    <view>美食</view>
+    <view>美装</view>
+    <view>居家</view>
+    <view>洗护</view>
+    <view>勤杂</view>
+    <view>饮食</view>
+    <view>电器</view>
+    <view>美丽</view>
+    <view>折扣</view>
+</view>
+    </scroll-view>
+
+    <swiper indicator-dots="true" autoplay="true" interval="2000">
+  <block wx:for="{{imgs}}" wx:for-index="index" wx:for-item="item" wx:key="index">
+    <swiper-item>
+      <image class="imgs" src="{{item.url}}" mode="widthFix"></image>
+    </swiper-item>
+  </block>
+</swiper>
+
+<view class="set">
+    <view class="fa">
+     <view class="time">10</view>
+    <view class="span">每日十件</view>
+    </view>
+    <view class="fa">
+     <view class="time">惠</view>
+    <view class="span">每日十件</view>
+    </view>
+    <view class="fa">
+     <view class="time">新</view>
+    <view class="span">每日十件</view>
+    </view>
+    <view class="fa">
+     <view class="time">签</view>
+    <view class="span">每日十件</view>
+    </view>
+</view>
+<view wx:for="{{playlist}}" wx:key="id">
+<special playlist="{{item}}"></special>
+</view>

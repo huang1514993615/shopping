@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "h-search":"/components/search/search"
+  },
+  "enablePullDownRefresh": true
+}

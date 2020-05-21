@@ -1,0 +1,11 @@
+<view class="input">
+<view class="but"><image class="image" src="/images/tubiao/sousuo.png"></image></view>
+    <input class="weui-input" maxlength="50" focus='{true}' bindinput="bindKeyInput" placeholder="请输入搜索内容" />
+    <view class="qd" bindtap="mohu">确定</view>
+</view>
+<view class="content" >
+    <block wx:for="{{playlist}}" wx:key="id">
+        <h-search playlist="{{item}}"></h-search>
+    </block>
+    
+</view>

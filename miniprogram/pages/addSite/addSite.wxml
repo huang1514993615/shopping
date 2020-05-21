@@ -1,0 +1,10 @@
+<view >
+<view class="top">新增地址</view>
+<view  class="ipt1"> 收货人 <input bindinput="Input1" placeholder="请输入收货人姓名" /></view>
+<view class="ipt1"> 手机
+号码 <input bindinput="Input2" placeholder="请输入手机号码" /></view>
+<view class="ipt1"> 省市地区<input bindinput="Input3" placeholder="点击选中" /></view>
+<view class="ipt"> 详细地址<textarea bindinput="Input4" placeholder="请输入详细地址 (5-120字)" /></view>
+<view class="ipt1 ipt2"> 设置默认地址   <switch bindtap="check" checked="{{checkbox}}" /></view>
+<button type="primary" bindtap="res" size="default">确认</button>
+</view>

@@ -1,0 +1,86 @@
+.content{
+    width: 100%;
+    height: 180rpx;
+    border: 1px solid red;
+    background-color: #f4f4f4;
+}
+.check{
+    width: 50rpx;
+    height: 100%;
+    padding: 65rpx 10rpx;
+    display: inline-block;
+    vertical-align: top;
+}
+image{
+    width: 180rpx;
+    height: 180rpx;
+    border-radius: 5%;
+    display: inline-block;
+    vertical-align: top;
+}
+.introduce{
+    width:450rpx;
+    height: 270rpx;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 25rpx;
+
+}
+.name{
+width: 100%;
+height: 80rpx;
+font-size: 36rpx;
+font-weight: bold;
+
+}
+.value{
+    width: 100%;
+    height: 55rpx;
+}
+.jiage{
+    width: 260rpx;
+    color: #ef5509;
+    font-size: 35rpx;
+    display: inline-block;
+}
+
+.shangjia{
+    color: #969696;
+    font-size: 26rpx;
+    margin-left: 10rpx;
+}
+.calculate{
+    width: 180rpx;
+    height: 50rpx;
+    display: inline-block;
+    border: 1rpx solid #969696;
+    border-radius: 6%;
+}
+.but1{
+    width: 50rpx;
+    height: 50rpx;
+    display: inline-block;
+    border-right: 1rpx solid #969696;
+    text-align: center;
+    line-height: 50rpx;
+}
+.but2{
+    width: 80rpx;
+    height: 50rpx;
+    text-align: center;
+    line-height: 50rpx;
+    display: inline-block;
+
+}
+.but3{
+    width: 50rpx;
+    height: 50rpx;
+    display: inline-block;
+    border-left: 1rpx solid #969696;
+    text-align: center;
+    line-height: 50rpx;
+}
+.xiaoji{
+    margin-left: 240rpx;
+    display: inline-block;
+}

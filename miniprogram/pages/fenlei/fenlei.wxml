@@ -1,0 +1,62 @@
+<view class="input">
+<view class="fanhui" bindtap="shouye"></view>
+<view class="but"><image class="image" src="/images/tubiao/sousuo.png"></image></view>
+    <input class="weui-input" maxlength="50" focus='{true}' bindtap="sousuo" placeholder="请输入搜索内容" />
+</view>
+  
+<view>
+    <scroll-view class="tabs-box" scroll-y="true">
+      <view >
+    <block wx:for="{{list}}" wx:key="id">
+        <view class="tabs-item {{currentData == index?'active':''}}" bindtap="ontab"
+        data-current='{{index}}'>
+            {{item}}
+        </view>
+          
+    </block>
+</view>
+    </scroll-view>
+    <view class="content-box">
+        <view hidden="{{currentData !=0}}">
+            <view>
+            <view class="text">咖啡</view>
+            <view class="flex" >
+            <block   wx:for="{{playlist}}" wx:key="id">
+             <h-classify playlist="{{item}}"></h-classify>
+            </block>
+            </view>
+            </view>
+             <view>
+            <view class="text">男装</view>
+            <view class="flex" >
+            <block   wx:for="{{nanzhuang}}" wx:key="id">
+             <h-classify playlist="{{item}}"></h-classify>
+            </block>
+            </view>
+            </view>
+             <view>
+            <view class="text">女装</view>
+            <view class="flex" >
+            <block   wx:for="{{nvzhuang}}" wx:key="id">
+             <h-classify playlist="{{item}}"></h-classify>
+            </block>
+            </view>
+            </view>
+            <view>
+            <view class="text">饮食</view>
+            <view class="flex" >
+            <block   wx:for="{{yinshi}}" wx:key="id">
+             <h-classify playlist="{{item}}"></h-classify>
+            </block>
+            </view>
+            </view>
+            
+        </view>
+         <view hidden="{{currentData !=1}}">呵呵呵</view>
+          <view hidden="{{currentData !=2}}">嘻嘻嘻</view>
+           <view hidden="{{currentData !=3}}">啦啦啦啦</view>
+            <view hidden="{{currentData !=4}}">额鹅鹅鹅</view>
+    </view>
+      
+</view>
+

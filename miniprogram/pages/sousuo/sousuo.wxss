@@ -1,0 +1,57 @@
+.weui-input{
+    width: 60%;
+    height: 50rpx;
+    background-color: #ececec;
+    border-radius: 4%;
+    text-align: center;
+    display: inline-block;
+   
+}
+.input{
+    width: 100%;
+    height: 80rpx;
+    background-color: #f6f6f6;
+    position: fixed;
+    vertical-align: top;
+}
+.but{
+    width: 70rpx;
+    height: 51rpx;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 80rpx;
+    text-align: center;
+    line-height: 50rpx;
+    background-color: #ececec;
+}
+.qd{
+    width: 70rpx;
+    height: 51rpx;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    line-height: 50rpx;
+}
+.image{
+    width: 40rpx;
+    height: 40rpx;
+    margin-top: 5rpx;
+}
+
+.fanhui{
+    width: 51rpx;
+    height: 51rpx;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    line-height: 50rpx;
+    margin-left: 15rpx;
+}
+.images{
+    width: 40rpx;
+    height: 40rpx;
+    margin-top: 5rpx; 
+}
+.content{
+    margin-top: 80rpx;
+}

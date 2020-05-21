@@ -1,0 +1,15 @@
+.box{
+    width: 30%;
+    height: auto;
+    display: inline-block;
+}
+.image{
+    width:160rpx;
+    height: 160rpx;
+
+}
+.text{
+  width: 160rpx;
+  font-size: 18rpx;
+  text-align: center;
+}

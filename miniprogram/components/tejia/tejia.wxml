@@ -1,0 +1,14 @@
+
+<view  class="content" bindtap="nva">
+<block>
+    <image src="{{playlist.img_list_url}}">
+</image>
+</block>
+<view >{{playlist.title}}</view>
+<view class="text">已售{{playlist.nice}}件</view>
+  <view>
+      <text class="text-one"> ￥{{playlist.price}} </text>
+      <text class="text-two">￥100</text>
+   <button size="mini">立即购买</button>
+  </view>
+</view>

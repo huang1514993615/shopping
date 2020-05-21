@@ -1,0 +1,158 @@
+
+.ima{
+    width: 200rox;
+    height: 200rpx;
+    margin-left:280rpx;
+}
+.text{
+    width: 100%;
+    height: 100rpx;
+    color: #cccccc;
+    text-align: center;
+    line-height: 100rpx;
+}
+.button{
+    width: 200rpx;
+    height: 70rpx;
+    color: red;
+    margin-left:50%-200rpx;
+    border: 1rpx solid #cccccc;
+}
+.content{
+    width: 100%;
+    height: 180rpx;
+    background-color: #f2f2f2;
+    margin-bottom: 10rpx;
+
+}
+.check{
+    width: 50rpx;
+    height: 100%;
+    padding: 65rpx 10rpx;
+    display: inline-block;
+    vertical-align: top;
+}
+image{
+    width: 180rpx;
+    height: 180rpx;
+    border-radius: 5%;
+    display: inline-block;
+    vertical-align: top;
+}
+.introduce{
+    width:450rpx;
+    height: 270rpx;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 25rpx;
+
+}
+.name{
+width: 100%;
+height: 80rpx;
+font-size: 32rpx;
+font-weight: bold;
+
+}
+.value{
+    width: 100%;
+    height: 55rpx;
+}
+.jiage{
+    width: 250rpx;
+    color: #ef5509;
+    font-size: 35rpx;
+    display: inline-block;
+}
+
+.shangjia{
+    color: #969696;
+    font-size: 26rpx;
+    margin-left: 10rpx;
+}
+.calculate{
+    width: 180rpx;
+    height: 50rpx;
+    display: inline-block;
+    border: 1rpx solid #969696;
+    border-radius: 6%;
+}
+.but1{
+    width: 50rpx;
+    height: 50rpx;
+    display: inline-block;
+    border-right: 1rpx solid #969696;
+    text-align: center;
+    line-height: 50rpx;
+}
+.but2{
+    width: 70rpx;
+    height: 50rpx;
+    text-align: center;
+    line-height: 50rpx;
+    display: inline-block;
+
+}
+.but3{
+    width: 50rpx;
+    height: 50rpx;
+    display: inline-block;
+    border-left: 1rpx solid #969696;
+    text-align: center;
+    line-height: 50rpx;
+}
+.xiaoji{
+    margin-left: 240rpx;
+    display: inline-block;
+}
+.sum{
+    width: 100%;
+    height: 100rpx;
+    position: fixed;
+    bottom: 0rpx;
+    border-top: 1rpx solid #d5d5d5;
+    background-color: #f2f2f2;
+}
+.sum>checkbox{
+    margin-top:25rpx;
+    margin-left: 15rpx;
+    display: inline-block;
+    color: #969696;
+    vertical-align: top;
+}
+.price{
+    width: 200rpx;
+    height: 100%;
+    text-align: center;
+    line-height: 100rpx;
+    color: #ef5509;
+    font-size: 32rpx;
+    margin-left:3%;
+    display: inline-block;
+    vertical-align: top;
+}
+.sum>button{
+    width: 170rpx;
+    height: 50rpx;
+    text-align: center;
+    line-height:50rpx;
+    font-size: 35rpx;
+    display: inline-block;
+    background-color: #ef5509;
+    border-radius: 10%;
+    margin-top: 25rpx;
+    vertical-align: top;
+}
+.sum>.delete{
+    width: 170rpx;
+    height: 50rpx;
+    text-align: center;
+    line-height:50rpx;
+    font-size: 35rpx;
+    display: inline-block;
+    background-color:red;
+    border-radius: 10%;
+    margin-top: 25rpx;
+    vertical-align: top;
+    margin-left:4%;
+}

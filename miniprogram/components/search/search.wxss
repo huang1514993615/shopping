@@ -1,0 +1,53 @@
+.content{
+    width: 100%;
+    height: 200rpx;
+    margin-top: 15rpx;
+}
+.image{
+    width: 200rpx;
+    height: 200rpx;
+    border-radius: 4%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20rpx;
+}
+image{
+    width: 100%;
+    height: 100%;
+    border-radius: 4%;
+}
+.introduce{
+    width:450rpx;
+    height: 200rpx;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 30rpx;
+}
+.name{
+width: 100%;
+height: 80rpx;
+font-size: 36rpx;
+font-weight: bold;
+
+}
+.value{
+    width: 100%;
+    height: 70rpx;
+    margin-top: 10rpx;
+}
+.jiage{
+    color: #ef5509;
+    font-size: 35rpx;
+    display: inline-block;
+}
+.payment{
+    color: #969696;
+    font-size: 24rpx;
+    display: inline-block;
+    margin-left: 10rpx;
+}
+.shangjia{
+    color: #969696;
+    font-size: 26rpx;
+    margin-left: 10rpx;
+}

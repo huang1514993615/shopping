@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "special":"/components/tejia/tejia"
+  },
+  "enablePullDownRefresh": true
+}

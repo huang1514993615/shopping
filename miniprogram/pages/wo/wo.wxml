@@ -1,0 +1,85 @@
+<view class="back">
+<!-- 头部 -->
+<view  class="top">
+<view class="w-1"><image src="/images/centre/shezhi.png"></image></view>
+<view wx:if="{{user !==null}}" class="w-2">{{user.nickName}}</view>
+<view wx:elif="{{user ==null}}" class="w-2">请登录</view>
+
+<view class="w-3" wx:if="{{user !==null}}" >成长值</view>
+ <button open-type="getUserInfo" wx:elif="{{user ==null}}" bindgetuserinfo="login" class="weui-btn" type="primary"> 登录 </button>
+</view>
+<!-- 我的订单 -->
+<view  class="form">
+<view class="form-one">我的订单</view>
+<view class="form-two">
+    <text >全部订单</text>
+    <image class="" src="/images/centre/jiantou.png" > </image>
+</view>
+</view>
+
+<!-- 功能 -->
+<view class="icon">
+<view class="centent">
+    <image class="images" src="/images/centre/daifukuan.png"></image>
+    <view >待付款</view>
+</view>
+<view  class="centent">
+    <image class="images" src="/images/centre/daishouhuo.png" ></image>
+    <view >待收货</view>
+</view>
+<view class="centent">
+    <image class="images" src="/images/centre/yiwancheng.png" ></image>
+    <view >已完成</view>
+</view>
+<view class="centent">
+    <image class="images" src="/images/centre/shouhoutuikuan.png"></image>
+    <view >售后/退款</view>
+</view>
+</view>
+
+<!-- 我的金币 地址 客服。。。 -->
+<view class="block">
+<block>
+    <view  class="forms">
+<view class="form-one">我的金币</view>
+<view class="form-two">
+    <text >0</text>
+    <image class="" src="/images/centre/jiantou.png" > </image>
+</view>
+</view>
+</block>
+<block>
+    <view  class="forms" bindtap="nva">
+<view class="form-one">我的地址</view>
+<view class="form-two">
+    <text ></text>
+    <image class="" src="/images/centre/jiantou.png" > </image>
+</view>
+</view>
+</block>
+<block>
+    <view  class="forms">
+<view class="form-one">在线客服</view>
+<view class="form-two">
+    <text ></text>
+    <image class="" src="/images/centre/jiantou.png" > </image>
+</view>
+</view>
+</block>
+<block>
+    <view  class="forms">
+<view class="form-one">系统设置</view>
+<view class="form-two">
+    <text ></text>
+    <image class="" src="/images/centre/jiantou.png" > </image>
+</view>
+</view>
+</block>
+</view>
+<!-- 末尾图片 -->
+<view class="win">
+    <image class="trail" src="http://bfs.biyao.com/group1/M00/C8/19/rBACYVzH_sGAfrzRAAA8joHI5YU396.jpg" >
+    
+</image>
+</view>
+</view>

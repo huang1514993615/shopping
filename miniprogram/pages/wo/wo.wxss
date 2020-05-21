@@ -1,0 +1,117 @@
+.back{
+    background-color: #dfdbdb;
+}
+.top{
+    width: 100%;
+    height: 250rpx;
+    background-color: #ff5252;
+}
+.w-1{
+    width: 100%;
+    height:70rpx;
+}
+.w-1>image{
+    margin-left: 90%;
+    width: 40rpx;
+    height: 40rpx;
+    margin-top: 20rpx;
+   
+}
+.w-2{
+    width: 100%;
+    height: 70rpx;
+    text-align: center;
+    line-height: 70rpx;
+    margin-top: 10rpx;
+    color: wheat;
+    font-size: 36rpx;
+    font-weight: bold;
+}
+.w-3{
+    width: 150rpx;
+    height: 50rpx;
+    background-color: #ff9800;
+    text-align: center;
+    line-height: 50rpx;
+    margin-left:40%;
+    margin-top: 10rpx;
+    color: wheat;
+    font-size: 24rpx;
+}
+.form{
+    width: 100%;
+    height: 80rpx;
+    border: 1rpx solid #dfdbdb;
+    background-color: #f4f4f4;
+}
+.form-one{
+    width:180rpx;
+    height: 100%;
+    text-align: center;
+    line-height: 80rpx;
+    font-size: 30rpx;
+    font-weight: 500;
+    display:inline-block;
+}
+.form-two{
+    width:180rpx;
+    height: 100%;
+    text-align: center;
+    line-height: 80rpx;
+    font-size: 30rpx;
+    font-weight: 500;
+    float: right;
+    display:inline-block;
+}
+.form-two>text{
+    vertical-align: top;
+}
+.form-two>image{
+    width: 32rpx;
+    height: 32rpx;
+    display:inline-block;
+    vertical-align: top;
+    margin-top: 26rpx;
+}
+.icon{
+    width: 100%;
+    height: 100rpx;
+    background-color: #f4f4f4;
+}
+.centent{
+    width: 25%;
+    height: 100%;
+    display: inline-block;
+}
+.centent>.images{
+    width: 40rpx;
+    height: 40rpx;
+    margin-top: 15rpx;
+    margin-left: 40%;
+}
+.centent>view{
+    width: 100%;
+    height: 45rpx;
+    text-align:center;
+    line-height:40rpx;
+    font-size: 26rpx;
+}
+.block>.forms{
+    width: 100%;
+    height: 80rpx;
+    border-bottom: 1rpx solid  #dfdbdb;
+}
+.block{
+    margin-top: 20rpx;
+    background-color: #f4f4f4;
+}
+.trail{
+    width: 100%;
+    height: 300rpx;
+    margin-top: 30rpx;
+}
+.win{
+    width: 100%;
+    height: 400rpx;
+    background-color:  #f4f4f4;
+}

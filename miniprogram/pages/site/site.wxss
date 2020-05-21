@@ -1,0 +1,36 @@
+.top{
+    width: 180rpx;
+    height: 180rpx;
+    border-radius: 50%;
+    background-color: #ff5252;
+    text-align: center;
+    line-height: 180rpx;
+    font-size: 40rpx;
+    font-weight: bold;
+    margin-top: 300rpx;
+    margin-left: 38%;
+}
+.size{
+    width: 100%;
+    height: 80rpx;
+    text-align: center;
+    line-height: 80rpx;
+    font-size: 32rpx;
+}
+.size-min{
+    width: 100%;
+    height: 80rpx;
+    text-align: center;
+    line-height: 80rpx;
+    font-size: 26rpx;
+    color: #9b9a9b;
+}
+.but{
+    width: 150rpx;
+    height: 60rpx;
+    border: 1px solid #bbbbbb;
+    text-align: center;
+    color: #ed1709;
+    font-size: 34rpx;
+    margin-left: 40%;
+}

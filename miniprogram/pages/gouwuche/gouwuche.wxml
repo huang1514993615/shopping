@@ -1,0 +1,35 @@
+<view wx:if="{{hasList==true}}" >
+
+    <block wx:for="{{carts}}" wx:key="id" data-index="{{index}}">
+       <view  class="content">
+    <view class="check">
+        <checkbox bindtap="totalPrice"  checked="{{item.whether}}" class="checkbox" data-index="{{index}}"></checkbox>
+    </view>
+    <image bindtap="nva" class="" data-index="{{index}}" src="{{item.img_url}}"></image>
+    <view class="introduce" >
+<view class="name">{{item.title}}</view>
+<view  class="value"><view class="jiage">￥<text >{{item.price}}</text></view> <view class="calculate">
+    <view class="but1" bindtap="jia"  data-types="minus" data-index="{{index}}">-</view>
+    <view class="but2">{{item.amount}}</view>
+    <view class="but3" bindtap="jia"  data-types="add" data-index="{{index}}">+</view>
+</view></view>
+<view class="shangjia">南京 <view class="xiaoji" data-index="{{index}}">小计{{item.shu}}</view></view> 
+</view>
+
+</view>
+    </block>
+    <view class="sum">
+     <checkbox checked="{{checkbox}}" data-index="{{index}}" class="checkbox" bindtap="check">全选</checkbox>
+     <button bindtap="delete" class="delete" size="mini">删除</button>
+     <view class="price">合计：{{totalPrice}}</view>
+     <button size="mini">结算</button>
+    </view>
+      
+    
+</view>
+
+<view wx:elif="{{hasList==false}}">
+    <image class="ima" src="/images/hui/gouwucheman.png" />
+<view class="text">购物车空空如也,快来挑好货吧</view>
+<button class="button">逛逛今日特卖</button>
+</view>

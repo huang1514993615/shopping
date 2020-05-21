@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "h-classify":"/components/classify/classify"
+  }
+}

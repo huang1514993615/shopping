@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/shou/shou",
+    "pages/fenlei/fenlei",
+    "pages/gouwuche/gouwuche",
+    "pages/wo/wo",
+    "pages/sousuo/sousuo",
+    "pages/detailPage/detailPage",
+    "pages/site/site",
+    "pages/addSite/addSite"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "首页商城",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/shou/shou",
+        "text": "首页",
+        "iconPath": "images/hui/shouye.png",
+        "selectedIconPath": "images/huong/shouye.png"
+      },
+      {
+        "pagePath": "pages/fenlei/fenlei",
+        "text": "分类",
+        "iconPath": "images/hui/fenlei.png",
+        "selectedIconPath": "images/huong/fenlei.png"
+      },
+      {
+        "pagePath": "pages/gouwuche/gouwuche",
+        "text": "购物车",
+        "iconPath": "images/hui/gouwucheman.png",
+        "selectedIconPath": "images/huong/gouwucheman.png"
+      },
+      {
+        "pagePath": "pages/wo/wo",
+        "text": "个人",
+        "iconPath": "images/hui/geren.png",
+        "selectedIconPath": "images/huong/geren.png"
+      }
+    ],
+    "selectedColor": "#1296db"
+  }
+}

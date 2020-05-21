@@ -1,0 +1,18 @@
+<view  class="content">
+    <view class="check">
+        <checkbox checked="{{checkbox}}" class="checkbox"></checkbox>
+    </view>
+    <image class="" src="{{playlist.img_url}}"></image>
+    <view class="introduce" >
+<view class="name">{{playlist.title}}</view>
+<view  class="value"><view class="jiage">￥<text >{{playlist.price}}</text></view> <view class="calculate">
+    <view class="but1" bindtap="jian">-</view>
+    <view class="but2">{{cart}}</view>
+    <view class="but3" bindtap="jia">+</view>
+</view></view>
+<view class="shangjia">南京 <view class="xiaoji">小计{{shu}}</view></view>
+
+  
+</view>
+      
+</view>
